@@ -1022,7 +1022,7 @@ if ${NEUTRON_ENABLED} is True:
             "network_type": "gre",
             "provider_networks": [
                 {
-                    "bridge": "br-%s" % neutron_interface_bridge,
+                    "bridge": "br-${NEUTRON_INTERFACE_BRIDGE}",
                     "vlans": "1:1000",
                     "label": "external"
                 }
