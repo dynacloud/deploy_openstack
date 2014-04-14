@@ -929,10 +929,10 @@ env = {
       'erlang_cookie': "${CHEF_COOKIE}"
     },
     'enable_monit': True,
-	'horizon': {
-	  'endpoint_scheme': "http",
-	  'endpoint_type': "publicURL"
-	}
+    'horizon': {
+      'endpoint_scheme': "http",
+      'endpoint_type': "publicURL"
+    },
     'glance': {
         'image': {},
       'image_upload': True,
