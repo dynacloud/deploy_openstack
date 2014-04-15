@@ -1015,8 +1015,7 @@ if ${NEUTRON_ENABLED} is True:
         "provider": "${NEUTRON_NAME}"
     })
 
-    neutron_interface = "${NEUTRON_INTERFACE}"
-	neutron_interface_bridge = "${NEUTRON_INTERFACE_BRIDGE}"
+    neutron_interface_bridge = "${NEUTRON_INTERFACE}"
     net_attrs = env['override_attributes']["${NEUTRON_NAME}"] = {
         "ovs": {
             "network_type": "gre",
